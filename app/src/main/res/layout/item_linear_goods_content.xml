@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/goods_cover"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/goods_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="啊大大实打实大苏打撒大苏打实打实大苏打"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/goods_off_prise"
+            android:layout_marginBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="省10元"
+            android:background="@drawable/shape_tag_bg"
+            android:textColor="@color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="券后价："
+                android:textColor="@color/colorPrimary"/>
+            <TextView
+                android:id="@+id/goods_after_off_prise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20.0"
+                android:textColor="@color/gray"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:id="@+id/goods_before_prise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="￥23"
+                android:textColor="@color/red" />
+            <TextView
+                android:id="@+id/goods_sell_count"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xxx人已购买"
+                android:textColor="@color/gray"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

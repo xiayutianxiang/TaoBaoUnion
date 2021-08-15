@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:sob="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.activity.TestActivity">
+
+    <com.example.taobaounion.custom.TextFlowLayout
+        android:id="@+id/text_view"
+        sob:horizontalSpace="20px"
+        sob:verticalSpace="20px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loading_view"/>
+
+    <com.example.taobaounion.custom.LoadingView
+        android:id="@+id/loading_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <RadioGroup
+        android:id="@+id/test_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/test_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_navigation_home"
+            android:gravity="center"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/test_select"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_navigation_select"
+            android:gravity="center"
+            android:text="特惠" />
+
+        <RadioButton
+            android:id="@+id/test_red_packet"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_navigation_red_packet"
+            android:gravity="center"
+            android:text="红包" />
+
+        <RadioButton
+            android:id="@+id/test_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_navigation_search"
+            android:gravity="center"
+            android:text="搜索" />
+    </RadioGroup>
+</RelativeLayout>

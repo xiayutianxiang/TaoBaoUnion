@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TabLayoutTextStyle">
+        <item name="textSize">17sp</item>
+    </style>
+
+
+    <declare-styleable name="AutoLooperStyle">
+        <attr name="duration" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlowTextStyle">
+        <attr name="horizontalSpace" format="dimension"/>
+        <attr name="verticalSpace" format="dimension"/>
+    </declare-styleable>
+</resources>

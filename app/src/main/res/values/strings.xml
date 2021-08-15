@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">TaoBaoUnion</string>
+
+
+    <string name="text_home">首页</string>
+    <string name="text_selected">精选</string>
+    <string name="text_on_sell">特惠</string>
+    <string name="text_search">搜索</string>
+    <string name="search_tips_text">搜搜想要的...</string>
+    <string name="home_tips">领券</string>
+    <string name="retry_connect">网络错误,请点击重试</string>
+
+    <string name="text_goods_off_prise">省%1$d元</string>
+    <string name="text_goods_before_prise">￥%1$s</string>
+    <string name="text_goods_sell_count">%1$d人已购买</string>
+    <string name="text_tao_kou_ling">领券淘口令</string>
+    <string name="text_lingquan">领券</string>
+    <string name="text_loading">加载中...</string>
+    <string name="text_selected_tips">精选内容</string>
+    <string name="text_on_sell_title">特惠宝贝</string>
+    <string name="text_search_history">搜索历史</string>
+    <string name="text_recommend_history">热门搜索</string>
+</resources>
