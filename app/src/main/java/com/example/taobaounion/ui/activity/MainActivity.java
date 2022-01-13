@@ -29,8 +29,8 @@ public class MainActivity extends BaseActivity implements  IMainActivity{
 
     private HomeFragment mHomeFragment;
     private RecommendFragment mRecommendFragment;
-    private OnSellFragment mOnSellFragment;
     private SearchFragment mSearchFragment;
+    private OnSellFragment mOnSellFragment;
     private FragmentManager mFm;
 
     @Override
